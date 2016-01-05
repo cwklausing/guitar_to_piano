@@ -1,0 +1,228 @@
+<svg id="guitar-neck" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 576 129">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #281208;
+      }
+
+      .cls-2 {
+        stroke: #b3b3b3;
+        stroke-miterlimit: 10;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-12);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-13);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-14);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-15);
+      }
+
+      .cls-17 {
+        fill: url(#linear-gradient-16);
+      }
+
+      .cls-18 {
+        fill: url(#linear-gradient-17);
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-18);
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient-19);
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-20);
+      }
+
+      .cls-22 {
+        fill: url(#linear-gradient-21);
+      }
+
+      .cls-23 {
+        fill: url(#linear-gradient-22);
+      }
+
+      .cls-24 {
+        fill: #fff;
+        opacity: 0.01;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="65" x2="13.5" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0.65" stop-color="#fdfdfd"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="71" y1="64.5" x2="74" y2="64.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="131" x2="134" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="190" x2="193" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="245" x2="248" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="297" x2="300" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-7" x1="349" x2="352" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-8" x1="398" x2="401" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-9" x1="445" x2="448" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-10" x1="490" x2="493" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-11" x1="533" x2="536" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-12" x1="573" x2="576" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-13" x1="288.08" y1="120.27" x2="288.08" y2="116.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0.35" stop-color="#945f00"/>
+      <stop offset="1" stop-color="#ffd9d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-14" x1="288.08" y1="98.57" x2="288.08" y2="95.89" xlink:href="#linear-gradient-13"/>
+    <linearGradient id="linear-gradient-15" x1="288.08" y1="76.57" x2="288.08" y2="73.89" xlink:href="#linear-gradient-13"/>
+    <linearGradient id="linear-gradient-16" x1="288.08" y1="54.46" x2="288.08" y2="51.89" xlink:href="#linear-gradient-13"/>
+    <linearGradient id="linear-gradient-17" x1="288.08" y1="32.3" x2="288.08" y2="29.89" xlink:href="#linear-gradient-13"/>
+    <linearGradient id="linear-gradient-18" x1="287.95" y1="10.23" x2="287.95" y2="7.89" xlink:href="#linear-gradient-13"/>
+    <linearGradient id="linear-gradient-19" x1="158.01" y1="64.04" x2="166.54" y2="64.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-20" x1="268.57" y1="64.04" x2="277.11" y2="64.04" xlink:href="#linear-gradient-19"/>
+    <linearGradient id="linear-gradient-21" x1="370.43" y1="64.04" x2="378.96" y2="64.04" xlink:href="#linear-gradient-19"/>
+    <linearGradient id="linear-gradient-22" x1="464.28" y1="64.04" x2="472.82" y2="64.04" xlink:href="#linear-gradient-19"/>
+  </defs>
+  <title>guitar</title>
+  <rect class="cls-1" y="4" width="576" height="121"/>
+  <rect id="bridge" class="cls-2" x="0.5" y="4.5" width="13" height="121"/>
+  <rect id="fret-1" class="cls-3" x="71" y="4" width="3" height="121"/>
+  <rect id="fret-2" class="cls-4" x="131" y="4" width="3" height="121"/>
+  <rect id="fret-3" class="cls-5" x="190" y="4" width="3" height="121"/>
+  <rect id="fret-4" class="cls-6" x="245" y="4" width="3" height="121"/>
+  <rect id="fret-5" class="cls-7" x="297" y="4" width="3" height="121"/>
+  <rect id="fret-6" class="cls-8" x="349" y="4" width="3" height="121"/>
+  <rect id="fret-7" class="cls-9" x="398" y="4" width="3" height="121"/>
+  <rect id="fret-8" class="cls-10" x="445" y="4" width="3" height="121"/>
+  <rect id="fret-9" class="cls-11" x="490" y="4" width="3" height="121"/>
+  <rect id="fret-10" class="cls-12" x="533" y="4" width="3" height="121"/>
+  <rect id="fret-11" class="cls-13" x="573" y="4" width="3" height="121"/>
+  <rect id="e1-string" class="cls-14" x="0.15" y="116.89" width="575.85" height="3.38"/>
+  <rect id="a-string" class="cls-15" x="0.15" y="95.89" width="575.85" height="2.68"/>
+  <rect id="d-string" class="cls-16" x="0.15" y="73.89" width="575.85" height="2.68"/>
+  <rect id="g-string" class="cls-17" x="0.15" y="51.89" width="575.85" height="2.58"/>
+  <rect id="b-string" class="cls-18" x="0.15" y="29.89" width="575.85" height="2.41"/>
+  <rect id="e2-string" class="cls-19" x="-0.1" y="7.89" width="576.1" height="2.34"/>
+  <circle class="cls-20" cx="162.28" cy="64.04" r="4.27"/>
+  <circle class="cls-21" cx="272.84" cy="64.04" r="4.27"/>
+  <circle class="cls-22" cx="374.69" cy="64.04" r="4.27"/>
+  <circle class="cls-23" cx="468.55" cy="64.04" r="4.27"/>
+  <rect id="e1-1-2" data-name="e1-1" class="cls-24" x="14" y="106" width="57" height="22"/>
+  <rect id="a-1-2" data-name="a-1" class="cls-24" x="14" y="84" width="57" height="22"/>
+  <rect id="d-1-2" data-name="d-1" class="cls-24" x="14" y="63" width="57" height="21"/>
+  <rect id="g-1-2" data-name="g-1" class="cls-24" x="14" y="41" width="57" height="22"/>
+  <rect id="b-1-2" data-name="b-1" class="cls-24" x="14" y="20" width="57" height="21"/>
+  <rect id="e2-1-2" data-name="e2-1" class="cls-24" x="14" width="57" height="19"/>
+  <rect id="e1-2-2" data-name="e1-2" class="cls-24" x="72" y="106" width="60" height="21"/>
+  <rect id="a-2-2" data-name="a-2" class="cls-24" x="71" y="84" width="61" height="22"/>
+  <rect id="d-2-2" data-name="d-2" class="cls-24" x="71" y="63" width="61" height="21"/>
+  <rect id="g-2-2" data-name="g-2" class="cls-24" x="71" y="41" width="61" height="21"/>
+  <rect id="b-2-2" data-name="b-2" class="cls-24" x="71" y="20" width="61" height="21"/>
+  <rect id="e2-2-2" data-name="e2-2" class="cls-24" x="71" width="61" height="20"/>
+  <rect id="e1-3-2" data-name="e1-3" class="cls-24" x="132" y="106" width="58" height="22"/>
+  <rect id="a-3-2" data-name="a-3" class="cls-24" x="132" y="84" width="58" height="22"/>
+  <rect id="d-3-2" data-name="d-3" class="cls-24" x="132" y="63" width="58" height="21"/>
+  <rect id="g-3-2" data-name="g-3" class="cls-24" x="132" y="41" width="58" height="22"/>
+  <rect id="b-3-2" data-name="b-3" class="cls-24" x="132" y="19" width="58" height="22"/>
+  <rect id="e2-3-2" data-name="e2-3" class="cls-24" x="132" width="58" height="20"/>
+  <rect id="e1-4-2" data-name="e1-4" class="cls-24" x="190" y="106" width="55" height="22"/>
+  <rect id="a-4-2" data-name="a-4" class="cls-24" x="190" y="84" width="55" height="22"/>
+  <rect id="d-4-2" data-name="d-4" class="cls-24" x="190" y="63" width="55" height="21"/>
+  <rect id="g-4-2" data-name="g-4" class="cls-24" x="190" y="41" width="55" height="22"/>
+  <rect id="b-4-2" data-name="b-4" class="cls-24" x="190" y="19" width="55" height="22"/>
+  <rect id="e2-4-2" data-name="e2-4" class="cls-24" x="190" width="55" height="19"/>
+  <rect id="e1-5-2" data-name="e1-5" class="cls-24" x="245" y="106" width="53" height="21"/>
+  <rect id="a-5-2" data-name="a-5" class="cls-24" x="245" y="84" width="53" height="22"/>
+  <rect id="d-5-2" data-name="d-5" class="cls-24" x="245" y="63" width="53" height="21"/>
+  <rect id="g-5-2" data-name="g-5" class="cls-24" x="245" y="41" width="53" height="22"/>
+  <rect id="b-5-2" data-name="b-5" class="cls-24" x="245" y="19" width="53" height="22"/>
+  <rect id="e2-5-2" data-name="e2-5" class="cls-24" x="245" width="53" height="19"/>
+  <rect id="e1-6-2" data-name="e1-6" class="cls-24" x="298" y="106" width="51" height="22"/>
+  <rect id="a-6-2" data-name="a-6" class="cls-24" x="298" y="84" width="51" height="22"/>
+  <rect id="d-6-2" data-name="d-6" class="cls-24" x="298" y="63" width="51" height="21"/>
+  <rect id="g-6-2" data-name="g-6" class="cls-24" x="298" y="41" width="51" height="22"/>
+  <rect id="b-6-2" data-name="b-6" class="cls-24" x="298" y="19" width="51" height="22"/>
+  <rect id="e2-6-2" data-name="e2-6" class="cls-24" x="298" width="51" height="19"/>
+  <rect id="e1-7-2" data-name="e1-7" class="cls-24" x="348" y="108" width="50" height="21"/>
+  <rect id="a-7-2" data-name="a-7" class="cls-24" x="349" y="86" width="49" height="22"/>
+  <rect id="d-7-2" data-name="d-7" class="cls-24" x="349" y="64" width="49" height="22"/>
+  <rect id="g-7-2" data-name="g-7" class="cls-24" x="349" y="43" width="49" height="21"/>
+  <rect id="b-7-2" data-name="b-7" class="cls-24" x="349" y="21" width="49" height="22"/>
+  <rect id="e2-7-2" data-name="e2-7" class="cls-24" x="349" width="49" height="21"/>
+  <rect id="e1-8-2" data-name="e1-8" class="cls-24" x="398" y="108" width="47" height="21"/>
+  <rect id="a-8-2" data-name="a-8" class="cls-24" x="398" y="86" width="47" height="22"/>
+  <rect id="d-8-2" data-name="d-8" class="cls-24" x="398" y="64" width="47" height="22"/>
+  <rect id="g-8-2" data-name="g-8" class="cls-24" x="398" y="43" width="47" height="21"/>
+  <rect id="b-8-2" data-name="b-8" class="cls-24" x="398" y="21" width="47" height="22"/>
+  <rect id="e2-8-2" data-name="e2-8" class="cls-24" x="398" width="47" height="21"/>
+  <rect id="e1-9-2" data-name="e1-9" class="cls-24" x="445" y="108" width="45" height="21"/>
+  <rect id="a-9-2" data-name="a-9" class="cls-24" x="445" y="86" width="45" height="22"/>
+  <rect id="d-9-2" data-name="d-9" class="cls-24" x="445" y="64" width="45" height="22"/>
+  <rect id="g-9-2" data-name="g-9" class="cls-24" x="445" y="43" width="45" height="21"/>
+  <rect id="b-9-2" data-name="b-9" class="cls-24" x="445" y="21" width="45" height="22"/>
+  <rect id="e2-9-2" data-name="e2-9" class="cls-24" x="445" width="45" height="21"/>
+  <rect id="e1-10-2" data-name="e1-10" class="cls-24" x="490" y="108" width="43" height="21"/>
+  <rect id="a-10-2" data-name="a-10" class="cls-24" x="490" y="86" width="43" height="22"/>
+  <rect id="d-10-2" data-name="d-10" class="cls-24" x="490" y="64" width="43" height="22"/>
+  <rect id="g-10-2" data-name="g-10" class="cls-24" x="490" y="43" width="43" height="21"/>
+  <rect id="b-10-2" data-name="b-10" class="cls-24" x="490" y="21" width="43" height="22"/>
+  <rect id="e2-10-2" data-name="e2-10" class="cls-24" x="490" width="43" height="21"/>
+  <rect id="e1-11-2" data-name="e1-11" class="cls-24" x="533" y="108" width="43" height="21"/>
+  <rect id="a-11-2" data-name="a-11" class="cls-24" x="533" y="86" width="43" height="22"/>
+  <rect id="d-11-2" data-name="d-11" class="cls-24" x="533" y="64" width="43" height="22"/>
+  <rect id="g-11-2" data-name="g-11" class="cls-24" x="533" y="43" width="43" height="21"/>
+  <rect id="b-11-2" data-name="b-11" class="cls-24" x="533" y="21" width="43" height="22"/>
+  <rect id="e2-11-2" data-name="e2-11" class="cls-24" x="533" width="43" height="21"/>
+</svg>
