@@ -44,6 +44,7 @@ table {
 }
 
 /*End CSS Reset*/
+
 /*Begin Custom CSS*/
 
 body {
@@ -56,7 +57,7 @@ h1 {
   font-size: 3em;
 }
 
-.piano-image, .guitar-image {
+.piano, .guitar {
   width: 80%;
   display: block;
   padding: 20px;
