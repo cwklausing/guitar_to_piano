@@ -63,3 +63,12 @@ h1 {
   padding: 20px;
   margin: 0 auto;
 }
+
+.cls-24, .cls-25, .cls-26, .cls-27, .cls-28 {
+	stroke: #000;
+	opacity: 0;
+}
+
+.active {
+	opacity: 1;
+}
