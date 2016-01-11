@@ -14,13 +14,15 @@ app.controller('converterCtrl', ['$scope', '$http', function($scope, $http){
     $scope.guitar.string5 = -1;
     $scope.guitar.string6 = -1;
 
-    $scope.togglefret = function(){
-        if($scope.guitar.string1 === 0){
-            console.log();
+    $scope.togglefret = function(string){
+        if($scope.guitar[string] === 0){
+            $scope.guitar[string] = -1;
+        } else {
+            $scope.guitar[string] = 0;
         }
     };
 
-
-
-    //$scope.setNote = changeString();
+    $scope.setString = function(note, string){
+        $scope.guitar[string] = note;
+    };
 }]);
