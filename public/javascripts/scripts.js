@@ -3,9 +3,24 @@
  */
 var app = angular.module('app', []);
 
-app.controller('converter', ['$scope', '$http', function($scope, $http){
-    $scope.test = function(){
-        console.log("this click event is working");
-        alert("this click event is working");
-    }
+app.controller('converterCtrl', ['$scope', '$http', function($scope, $http){
+    //Creates empty guitar object
+    $scope.guitar = {};
+    //Guitar initializes with all strings = -1
+    $scope.guitar.string1 = -1;
+    $scope.guitar.string2 = -1;
+    $scope.guitar.string3 = -1;
+    $scope.guitar.string4 = -1;
+    $scope.guitar.string5 = -1;
+    $scope.guitar.string6 = -1;
+
+    $scope.togglefret = function(){
+        if($scope.guitar.string1 === 0){
+            console.log();
+        }
+    };
+
+
+
+    //$scope.setNote = changeString();
 }]);

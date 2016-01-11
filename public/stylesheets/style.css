@@ -69,6 +69,28 @@ h1 {
 	opacity: 0;
 }
 
+.p-cls-1 {
+	fill: #1a1a1a;
+}
+
+.p-cls-2 {
+	fill: #333;
+}
+
+.p-cls-3 {
+	fill: #f7f6f5;
+	stroke: #000;
+	stroke-miterlimit: 10;
+}
+
 .active {
 	opacity: 1;
+}
+
+.whitekeyactive {
+	fill: #00A6E5;
+}
+
+.blackkeyactive {
+	fill: #00E7FF;
 }

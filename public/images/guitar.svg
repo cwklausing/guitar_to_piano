@@ -187,191 +187,191 @@
 
   <g class="dots">
     <g id="e2-x">
-        <line ng-class="{active:string1 === -1}" class="cls-24" x1="1.51" y1="110.17" x2="18.24" y2="126.89"/>
-        <line ng-class="{active:string1 === -1}" class="cls-24" x1="1.41" y1="126.99" x2="18.14" y2="110.27"/>
+        <line ng-class="{active:guitar.string1 === -1}" class="cls-24" x1="1.51" y1="110.17" x2="18.24" y2="126.89"/>
+        <line ng-class="{active:guitar.string1 === -1}" class="cls-24" x1="1.41" y1="126.99" x2="18.14" y2="110.27"/>
     </g>
     <g id="b-x">
-        <line ng-class="{active:string2 === -1}" class="cls-24" x1="1.51" y1="89.05" x2="18.24" y2="105.78"/>
-        <line ng-class="{active:string2 === -1}" class="cls-24" x1="1.41" y1="105.88" x2="18.14" y2="89.15"/>
+        <line ng-class="{active:guitar.string2 === -1}" class="cls-24" x1="1.51" y1="89.05" x2="18.24" y2="105.78"/>
+        <line ng-class="{active:guitar.string2 === -1}" class="cls-24" x1="1.41" y1="105.88" x2="18.14" y2="89.15"/>
     </g>
     <g id="g-x">
-        <line ng-class="{active:string3 === -1}" class="cls-24" x1="1.51" y1="67.21" x2="18.24" y2="83.94"/>
-        <line ng-class="{active:string3 === -1}" class="cls-24" x1="1.41" y1="84.04" x2="18.14" y2="67.31"/>
+        <line ng-class="{active:guitar.string3 === -1}" class="cls-24" x1="1.51" y1="67.21" x2="18.24" y2="83.94"/>
+        <line ng-class="{active:guitar.string3 === -1}" class="cls-24" x1="1.41" y1="84.04" x2="18.14" y2="67.31"/>
     </g>
     <g id="d-x">
-        <line ng-class="{active:string4 === -1}" class="cls-24" x1="1.51" y1="45.14" x2="18.24" y2="61.86"/>
-        <line ng-class="{active:string4 === -1}" class="cls-24" x1="1.51" y1="61.86" x2="18.24" y2="45.14"/>
+        <line ng-class="{active:guitar.string4 === -1}" class="cls-24" x1="1.51" y1="45.14" x2="18.24" y2="61.86"/>
+        <line ng-class="{active:guitar.string4 === -1}" class="cls-24" x1="1.51" y1="61.86" x2="18.24" y2="45.14"/>
     </g>
     <g id="a-x">
-        <line ng-class="{active:string5 === -1}" class="cls-24" x1="1.56" y1="22.68" x2="18.29" y2="39.41"/>
-        <line ng-class="{active:string5 === -1}" class="cls-24" x1="1.46" y1="39.51" x2="18.19" y2="22.78"/>
+        <line ng-class="{active:guitar.string5 === -1}" class="cls-24" x1="1.56" y1="22.68" x2="18.29" y2="39.41"/>
+        <line ng-class="{active:guitar.string5 === -1}" class="cls-24" x1="1.46" y1="39.51" x2="18.19" y2="22.78"/>
     </g>
     <g id="e1-x">
-        <line ng-class="{active:string6 === -1}" class="cls-24" x1="1.61" y1="1.09" x2="18.34" y2="17.81"/>
-        <line ng-class="{active:string6 === -1}" class="cls-24" x1="1.51" y1="17.91" x2="18.24" y2="1.19"/>
+        <line ng-class="{active:guitar.string6 === -1}" class="cls-24" x1="1.61" y1="1.09" x2="18.34" y2="17.81"/>
+        <line ng-class="{active:guitar.string6 === -1}" class="cls-24" x1="1.51" y1="17.91" x2="18.24" y2="1.19"/>
     </g>
-    <circle ng-class="{active:string1 === 0}" id="e1-0-dot" data-name="e1-11-dot" class="cls-26" cx="10.12" cy="118.76" r="7.88"/>
-    <circle ng-class="{active:string2 === 0}" id="a-0-dot" data-name="a-11-dot" class="cls-26" cx="10.12" cy="97.26" r="7.88"/>
-    <circle ng-class="{active:string3 === 0}" id="d-0-dot" data-name="d-11-dot" class="cls-26" cx="10.12" cy="75.26" r="7.88"/>
-    <circle ng-class="{active:string4 === 0}" id="g-0-dot" data-name="g-11-dot" class="cls-26" cx="10.12" cy="53.44" r="7.88"/>
-    <circle ng-class="{active:string5 === 0}" id="b-0-dot" data-name="b-11-dot" class="cls-26" cx="10.12" cy="31.83" r="7.88"/>
-    <circle ng-class="{active:string6 === 0}" id="e2-0-dot" data-name="e2-11-dot" class="cls-26" cx="10.12" cy="9.32" r="7.88"/>
-    <circle ng-class="{active:string1 === 1}" id="e1-1-dot" class="cls-25" cx="46.25" cy="118.76" r="7.88"/>
-    <circle ng-class="{active:string2 === 1}" id="a-1-dot" class="cls-25" cx="46.25" cy="97.26" r="7.88"/>
-    <circle ng-class="{active:string3 === 1}" id="d-1-dot" class="cls-25" cx="46.25" cy="75.26" r="7.88"/>
-    <circle ng-class="{active:string4 === 1}" id="g-1-dot" class="cls-25" cx="46.25" cy="53.44" r="7.88"/>
-    <circle ng-class="{active:string5 === 1}" id="b-1-dot" class="cls-25" cx="46.25" cy="31.83" r="7.88"/>
-    <circle ng-class="{active:string6 === 1}" id="e2-1-dot" class="cls-25" cx="46.25" cy="9.32" r="7.88"/>
-    <circle ng-class="{active:string1 === 2}" id="e1-2-dot" class="cls-25" cx="106.5" cy="118.76" r="7.88"/>
-    <circle ng-class="{active:string2 === 2}" id="a-2-dot" class="cls-25" cx="106.5" cy="97.26" r="7.88"/>
-    <circle ng-class="{active:string3 === 2}" id="d-2-dot" class="cls-25" cx="106.5" cy="75.26" r="7.88"/>
-    <circle ng-class="{active:string4 === 2}" id="g-2-dot" class="cls-25" cx="106.5" cy="53.44" r="7.88"/>
-    <circle ng-class="{active:string5 === 2}" id="b-2-dot" class="cls-25" cx="106.5" cy="31.83" r="7.88"/>
-    <circle ng-class="{active:string6 === 2}" id="e2-2-dot" class="cls-25" cx="106.5" cy="9.32" r="7.88"/>
-    <circle ng-class="{active:string1 === 3}" id="e1-3-dot" class="cls-25" cx="166.75" cy="118.76" r="7.88"/>
-    <circle ng-class="{active:string2 === 3}" id="a-3-dot" class="cls-25" cx="166.75" cy="97.26" r="7.88"/>
-    <circle ng-class="{active:string3 === 3}" id="d-3-dot" class="cls-25" cx="166.75" cy="75.26" r="7.88"/>
-    <circle ng-class="{active:string4 === 3}" id="g-3-dot" class="cls-25" cx="166.75" cy="53.44" r="7.88"/>
-    <circle ng-class="{active:string5 === 3}" id="b-3-dot" class="cls-25" cx="166.75" cy="31.83" r="7.88"/>
-    <circle ng-class="{active:string6 === 3}" id="e2-3-dot" class="cls-25" cx="166.75" cy="9.32" r="7.88"/>
-    <circle ng-class="{active:string1 === 4}" id="e1-4-dot" class="cls-25" cx="223.6" cy="118.76" r="7.88"/>
-    <circle ng-class="{active:string2 === 4}" id="a-4-dot" class="cls-25" cx="223.6" cy="97.26" r="7.88"/>
-    <circle ng-class="{active:string3 === 4}" id="d-4-dot" class="cls-25" cx="223.6" cy="75.26" r="7.88"/>
-    <circle ng-class="{active:string4 === 4}" id="g-4-dot" class="cls-25" cx="223.6" cy="53.44" r="7.88"/>
-    <circle ng-class="{active:string5 === 4}" id="b-4-dot" class="cls-25" cx="223.6" cy="31.83" r="7.88"/>
-    <circle ng-class="{active:string6 === 4}" id="e2-4-dot" class="cls-25" cx="223.6" cy="9.32" r="7.88"/>
-    <circle ng-class="{active:string1 === 5}" id="e1-5-dot" class="cls-25" cx="277.4" cy="119.22" r="7.88"/>
-    <circle ng-class="{active:string2 === 5}" id="a-5-dot" class="cls-25" cx="277.4" cy="97.72" r="7.88"/>
-    <circle ng-class="{active:string3 === 5}" id="d-5-dot" class="cls-25" cx="277.4" cy="75.72" r="7.88"/>
-    <circle ng-class="{active:string4 === 5}" id="g-5-dot" class="cls-25" cx="277.4" cy="53.9" r="7.88"/>
-    <circle ng-class="{active:string5 === 5}" id="b-5-dot" class="cls-25" cx="277.4" cy="32.28" r="7.88"/>
-    <circle ng-class="{active:string6 === 5}" id="e2-5-dot" class="cls-25" cx="277.4" cy="9.78" r="7.88"/>
-    <circle ng-class="{active:string1 === 6}" id="e1-6-dot" class="cls-25" cx="328.5" cy="119.22" r="7.88"/>
-    <circle ng-class="{active:string2 === 6}" id="a-6-dot" class="cls-25" cx="328.5" cy="97.72" r="7.88"/>
-    <circle ng-class="{active:string3 === 6}" id="d-6-dot" class="cls-25" cx="328.5" cy="75.72" r="7.88"/>
-    <circle ng-class="{active:string4 === 6}" id="g-6-dot" class="cls-25" cx="328.5" cy="53.9" r="7.88"/>
-    <circle ng-class="{active:string5 === 6}" id="b-6-dot" class="cls-25" cx="328.5" cy="32.28" r="7.88"/>
-    <circle ng-class="{active:string6 === 6}" id="e2-6-dot" class="cls-25" cx="328.5" cy="9.78" r="7.88"/>
-    <circle ng-class="{active:string1 === 7}" id="e1-7-dot" class="cls-25" cx="379" cy="119.22" r="7.88"/>
-    <circle ng-class="{active:string2 === 7}" id="a-7-dot" class="cls-25" cx="379" cy="97.72" r="7.88"/>
-    <circle ng-class="{active:string3 === 7}" id="d-7-dot" class="cls-25" cx="379" cy="75.72" r="7.88"/>
-    <circle ng-class="{active:string4 === 7}" id="g-7-dot" class="cls-25" cx="379" cy="53.9" r="7.88"/>
-    <circle ng-class="{active:string5 === 7}" id="b-7-dot" class="cls-25" cx="379" cy="32.28" r="7.88"/>
-    <circle ng-class="{active:string6 === 7}" id="e2-7-dot" class="cls-25" cx="379" cy="9.78" r="7.88"/>
-    <circle ng-class="{active:string1 === 8}" id="e1-8-dot" class="cls-25" cx="427" cy="119.22" r="7.88"/>
-    <circle ng-class="{active:string2 === 8}" id="a-8-dot" class="cls-25" cx="427" cy="97.72" r="7.88"/>
-    <circle ng-class="{active:string3 === 8}" id="d-8-dot" class="cls-25" cx="427" cy="75.72" r="7.88"/>
-    <circle ng-class="{active:string4 === 8}" id="g-8-dot" class="cls-25" cx="427" cy="53.9" r="7.88"/>
-    <circle ng-class="{active:string5 === 8}" id="b-8-dot" class="cls-25" cx="427" cy="32.28" r="7.88"/>
-    <circle ng-class="{active:string6 === 8}" id="e2-8-dot" class="cls-25" cx="427" cy="9.78" r="7.88"/>
-    <circle ng-class="{active:string1 === 9}" id="e1-9-dot" class="cls-25" cx="473" cy="119.22" r="7.88"/>
-    <circle ng-class="{active:string2 === 9}" id="a-9-dot" class="cls-25" cx="473" cy="97.72" r="7.88"/>
-    <circle ng-class="{active:string3 === 9}" id="d-9-dot" class="cls-25" cx="473" cy="75.72" r="7.88"/>
-    <circle ng-class="{active:string4 === 9}" id="g-9-dot" class="cls-25" cx="473" cy="53.9" r="7.88"/>
-    <circle ng-class="{active:string5 === 9}" id="b-9-dot" class="cls-25" cx="473" cy="32.28" r="7.88"/>
-    <circle ng-class="{active:string6 === 9}" id="e2-9-dot" class="cls-25" cx="473" cy="9.78" r="7.88"/>
-    <circle ng-class="{active:string1 === 10}" id="e1-10-dot" class="cls-25" cx="517" cy="119.52" r="7.88"/>
-    <circle ng-class="{active:string2 === 10}" id="a-10-dot" class="cls-25" cx="517" cy="98.02" r="7.88"/>
-    <circle ng-class="{active:string3 === 10}" id="d-10-dot" class="cls-25" cx="517" cy="76.02" r="7.88"/>
-    <circle ng-class="{active:string4 === 10}" id="g-10-dot" class="cls-25" cx="517" cy="54.2" r="7.88"/>
-    <circle ng-class="{active:string5 === 10}" id="b-10-dot" class="cls-25" cx="517" cy="32.59" r="7.88"/>
-    <circle ng-class="{active:string6 === 10}" id="e2-10-dot" class="cls-25" cx="517" cy="10.08" r="7.88"/>
-    <circle ng-class="{active:string2 === 11}" id="e1-11-dot" class="cls-25" cx="558.5" cy="119.22" r="7.88"/>
-    <circle ng-class="{active:string3 === 11}" id="a-11-dot" class="cls-25" cx="558.5" cy="97.72" r="7.88"/>
-    <circle ng-class="{active:string3 === 11}" id="d-11-dot" class="cls-25" cx="558.5" cy="75.72" r="7.88"/>
-    <circle ng-class="{active:string4 === 11}" id="g-11-dot" class="cls-25" cx="558.5" cy="53.9" r="7.88"/>
-    <circle ng-class="{active:string5 === 11}" id="b-11-dot" class="cls-25" cx="558.5" cy="32.28" r="7.88"/>
-    <circle ng-class="{active:string6 === 11}" id="e2-11-dot" class="cls-25" cx="558.5" cy="9.78" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 0}" id="e1-0-dot" data-name="e1-11-dot" class="cls-26" cx="10.12" cy="118.76" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 0}" id="a-0-dot" data-name="a-11-dot" class="cls-26" cx="10.12" cy="97.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 0}" id="d-0-dot" data-name="d-11-dot" class="cls-26" cx="10.12" cy="75.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 0}" id="g-0-dot" data-name="g-11-dot" class="cls-26" cx="10.12" cy="53.44" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 0}" id="b-0-dot" data-name="b-11-dot" class="cls-26" cx="10.12" cy="31.83" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 0}" id="e2-0-dot" data-name="e2-11-dot" class="cls-26" cx="10.12" cy="9.32" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 1}" id="e1-1-dot" class="cls-25" cx="46.25" cy="118.76" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 1}" id="a-1-dot" class="cls-25" cx="46.25" cy="97.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 1}" id="d-1-dot" class="cls-25" cx="46.25" cy="75.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 1}" id="g-1-dot" class="cls-25" cx="46.25" cy="53.44" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 1}" id="b-1-dot" class="cls-25" cx="46.25" cy="31.83" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 1}" id="e2-1-dot" class="cls-25" cx="46.25" cy="9.32" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 2}" id="e1-2-dot" class="cls-25" cx="106.5" cy="118.76" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 2}" id="a-2-dot" class="cls-25" cx="106.5" cy="97.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 2}" id="d-2-dot" class="cls-25" cx="106.5" cy="75.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 2}" id="g-2-dot" class="cls-25" cx="106.5" cy="53.44" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 2}" id="b-2-dot" class="cls-25" cx="106.5" cy="31.83" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 2}" id="e2-2-dot" class="cls-25" cx="106.5" cy="9.32" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 3}" id="e1-3-dot" class="cls-25" cx="166.75" cy="118.76" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 3}" id="a-3-dot" class="cls-25" cx="166.75" cy="97.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 3}" id="d-3-dot" class="cls-25" cx="166.75" cy="75.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 3}" id="g-3-dot" class="cls-25" cx="166.75" cy="53.44" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 3}" id="b-3-dot" class="cls-25" cx="166.75" cy="31.83" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 3}" id="e2-3-dot" class="cls-25" cx="166.75" cy="9.32" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 4}" id="e1-4-dot" class="cls-25" cx="223.6" cy="118.76" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 4}" id="a-4-dot" class="cls-25" cx="223.6" cy="97.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 4}" id="d-4-dot" class="cls-25" cx="223.6" cy="75.26" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 4}" id="g-4-dot" class="cls-25" cx="223.6" cy="53.44" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 4}" id="b-4-dot" class="cls-25" cx="223.6" cy="31.83" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 4}" id="e2-4-dot" class="cls-25" cx="223.6" cy="9.32" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 5}" id="e1-5-dot" class="cls-25" cx="277.4" cy="119.22" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 5}" id="a-5-dot" class="cls-25" cx="277.4" cy="97.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 5}" id="d-5-dot" class="cls-25" cx="277.4" cy="75.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 5}" id="g-5-dot" class="cls-25" cx="277.4" cy="53.9" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 5}" id="b-5-dot" class="cls-25" cx="277.4" cy="32.28" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 5}" id="e2-5-dot" class="cls-25" cx="277.4" cy="9.78" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 6}" id="e1-6-dot" class="cls-25" cx="328.5" cy="119.22" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 6}" id="a-6-dot" class="cls-25" cx="328.5" cy="97.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 6}" id="d-6-dot" class="cls-25" cx="328.5" cy="75.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 6}" id="g-6-dot" class="cls-25" cx="328.5" cy="53.9" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 6}" id="b-6-dot" class="cls-25" cx="328.5" cy="32.28" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 6}" id="e2-6-dot" class="cls-25" cx="328.5" cy="9.78" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 7}" id="e1-7-dot" class="cls-25" cx="379" cy="119.22" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 7}" id="a-7-dot" class="cls-25" cx="379" cy="97.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 7}" id="d-7-dot" class="cls-25" cx="379" cy="75.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 7}" id="g-7-dot" class="cls-25" cx="379" cy="53.9" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 7}" id="b-7-dot" class="cls-25" cx="379" cy="32.28" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 7}" id="e2-7-dot" class="cls-25" cx="379" cy="9.78" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 8}" id="e1-8-dot" class="cls-25" cx="427" cy="119.22" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 8}" id="a-8-dot" class="cls-25" cx="427" cy="97.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 8}" id="d-8-dot" class="cls-25" cx="427" cy="75.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 8}" id="g-8-dot" class="cls-25" cx="427" cy="53.9" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 8}" id="b-8-dot" class="cls-25" cx="427" cy="32.28" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 8}" id="e2-8-dot" class="cls-25" cx="427" cy="9.78" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 9}" id="e1-9-dot" class="cls-25" cx="473" cy="119.22" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 9}" id="a-9-dot" class="cls-25" cx="473" cy="97.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 9}" id="d-9-dot" class="cls-25" cx="473" cy="75.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 9}" id="g-9-dot" class="cls-25" cx="473" cy="53.9" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 9}" id="b-9-dot" class="cls-25" cx="473" cy="32.28" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 9}" id="e2-9-dot" class="cls-25" cx="473" cy="9.78" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 10}" id="e1-10-dot" class="cls-25" cx="517" cy="119.52" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 10}" id="a-10-dot" class="cls-25" cx="517" cy="98.02" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 10}" id="d-10-dot" class="cls-25" cx="517" cy="76.02" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 10}" id="g-10-dot" class="cls-25" cx="517" cy="54.2" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 10}" id="b-10-dot" class="cls-25" cx="517" cy="32.59" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 10}" id="e2-10-dot" class="cls-25" cx="517" cy="10.08" r="7.88"/>
+    <circle ng-class="{active:guitar.string1 === 11}" id="e1-11-dot" class="cls-25" cx="558.5" cy="119.22" r="7.88"/>
+    <circle ng-class="{active:guitar.string2 === 11}" id="a-11-dot" class="cls-25" cx="558.5" cy="97.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string3 === 11}" id="d-11-dot" class="cls-25" cx="558.5" cy="75.72" r="7.88"/>
+    <circle ng-class="{active:guitar.string4 === 11}" id="g-11-dot" class="cls-25" cx="558.5" cy="53.9" r="7.88"/>
+    <circle ng-class="{active:guitar.string5 === 11}" id="b-11-dot" class="cls-25" cx="558.5" cy="32.28" r="7.88"/>
+    <circle ng-class="{active:guitar.string6 === 11}" id="e2-11-dot" class="cls-25" cx="558.5" cy="9.78" r="7.88"/>
   </g>
 
-  <g ng-class="e1-string" ng-init="string1 = -1">
-      <rect ng-click="string1 = 0" id="e1-0-2" data-name="e1-0" class="cls-27" y="106" width="18" height="22"/>
-      <rect ng-click="string1 = 1" id="e1-1-2" data-name="e1-1" class="cls-27" x="18" y="106" width="57" height="22"/>
-      <rect ng-click="string1 = 2" id="e1-2-2" data-name="e1-2" class="cls-27" x="75" y="106" width="61" height="22"/>
-      <rect ng-click="string1 = 3" id="e1-3-2" data-name="e1-3" class="cls-27" x="136" y="106" width="58" height="22"/>
-      <rect ng-click="string1 = 4" id="e1-4-2" data-name="e1-4" class="cls-27" x="194" y="106" width="55" height="22"/>
-      <rect ng-click="string1 = 5" id="e1-5-2" data-name="e1-5" class="cls-27" x="249" y="106" width="53" height="22"/>
-      <rect ng-click="string1 = 6" id="e1-6-2" data-name="e1-6" class="cls-27" x="302" y="106" width="51" height="22"/>
-      <rect ng-click="string1 = 7" id="e1-7-2" data-name="e1-7" class="cls-27" x="353" y="106" width="49" height="22"/>
-      <rect ng-click="string1 = 8" id="e1-8-2" data-name="e1-8" class="cls-27" x="402" y="106" width="47" height="22"/>
-      <rect ng-click="string1 = 9" id="e1-9-2" data-name="e1-9" class="cls-27" x="449" y="106" width="45" height="22"/>
-      <rect ng-click="string1 = 10" id="e1-10-2" data-name="e1-10" class="cls-27" x="494" y="106" width="43" height="22"/>
-      <rect ng-click="string1 = 11" id="e1-11-2" data-name="e1-11" class="cls-27" x="537" y="106" width="43" height="22"/>
+  <g ng-class="e1-string">
+      <rect ng-click="guitar.string1 = 0" id="e1-0-2" data-name="e1-0" class="cls-27" y="106" width="18" height="22"/>
+      <rect ng-click="guitar.string1 = 1" id="e1-1-2" data-name="e1-1" class="cls-27" x="18" y="106" width="57" height="22"/>
+      <rect ng-click="guitar.string1 = 2" id="e1-2-2" data-name="e1-2" class="cls-27" x="75" y="106" width="61" height="22"/>
+      <rect ng-click="guitar.string1 = 3" id="e1-3-2" data-name="e1-3" class="cls-27" x="136" y="106" width="58" height="22"/>
+      <rect ng-click="guitar.string1 = 4" id="e1-4-2" data-name="e1-4" class="cls-27" x="194" y="106" width="55" height="22"/>
+      <rect ng-click="guitar.string1 = 5" id="e1-5-2" data-name="e1-5" class="cls-27" x="249" y="106" width="53" height="22"/>
+      <rect ng-click="guitar.string1 = 6" id="e1-6-2" data-name="e1-6" class="cls-27" x="302" y="106" width="51" height="22"/>
+      <rect ng-click="guitar.string1 = 7" id="e1-7-2" data-name="e1-7" class="cls-27" x="353" y="106" width="49" height="22"/>
+      <rect ng-click="guitar.string1 = 8" id="e1-8-2" data-name="e1-8" class="cls-27" x="402" y="106" width="47" height="22"/>
+      <rect ng-click="guitar.string1 = 9" id="e1-9-2" data-name="e1-9" class="cls-27" x="449" y="106" width="45" height="22"/>
+      <rect ng-click="guitar.string1 = 10" id="e1-10-2" data-name="e1-10" class="cls-27" x="494" y="106" width="43" height="22"/>
+      <rect ng-click="guitar.string1 = 11" id="e1-11-2" data-name="e1-11" class="cls-27" x="537" y="106" width="43" height="22"/>
     </g>
 
-    <g ng-class="a-string" ng-init="string2 = -1">
-      <rect ng-click="string2 = 0" id="a-0-2" data-name="a-0" class="cls-27" y="84" width="18" height="22"/>
-      <rect ng-click="string2 = 1" id="a-1-2" data-name="a-1" class="cls-27" x="18" y="84" width="57" height="22"/>
-      <rect ng-click="string2 = 2" id="a-2-2" data-name="a-2" class="cls-27" x="75" y="84" width="61" height="22"/>
-      <rect ng-click="string2 = 3" id="a-3-2" data-name="a-3" class="cls-27" x="136" y="84" width="58" height="22"/>
-      <rect ng-click="string2 = 4" id="a-4-2" data-name="a-4" class="cls-27" x="194" y="84" width="55" height="22"/>
-      <rect ng-click="string2 = 5" id="a-5-2" data-name="a-5" class="cls-27" x="249" y="84" width="53" height="22"/>
-      <rect ng-click="string2 = 6" id="a-6-2" data-name="a-6" class="cls-27" x="302" y="84" width="51" height="22"/>
-      <rect ng-click="string2 = 7" id="a-7-2" data-name="a-7" class="cls-27" x="353" y="84" width="49" height="22"/>
-      <rect ng-click="string2 = 8" id="a-8-2" data-name="a-8" class="cls-27" x="402" y="84" width="47" height="22"/>
-      <rect ng-click="string2 = 9" id="a-9-2" data-name="a-9" class="cls-27" x="449" y="84" width="45" height="22"/>
-      <rect ng-click="string2 = 10" id="a-10-2" data-name="a-10" class="cls-27" x="494" y="84" width="43" height="22"/>
-      <rect ng-click="string2 = 11" id="a-11-2" data-name="a-11" class="cls-27" x="537" y="84" width="43" height="22"/>
+    <g ng-class="a-string" >
+      <rect ng-click="guitar.string2 = 0" id="a-0-2" data-name="a-0" class="cls-27" y="84" width="18" height="22"/>
+      <rect ng-click="guitar.string2 = 1" id="a-1-2" data-name="a-1" class="cls-27" x="18" y="84" width="57" height="22"/>
+      <rect ng-click="guitar.string2 = 2" id="a-2-2" data-name="a-2" class="cls-27" x="75" y="84" width="61" height="22"/>
+      <rect ng-click="guitar.string2 = 3" id="a-3-2" data-name="a-3" class="cls-27" x="136" y="84" width="58" height="22"/>
+      <rect ng-click="guitar.string2 = 4" id="a-4-2" data-name="a-4" class="cls-27" x="194" y="84" width="55" height="22"/>
+      <rect ng-click="guitar.string2 = 5" id="a-5-2" data-name="a-5" class="cls-27" x="249" y="84" width="53" height="22"/>
+      <rect ng-click="guitar.string2 = 6" id="a-6-2" data-name="a-6" class="cls-27" x="302" y="84" width="51" height="22"/>
+      <rect ng-click="guitar.string2 = 7" id="a-7-2" data-name="a-7" class="cls-27" x="353" y="84" width="49" height="22"/>
+      <rect ng-click="guitar.string2 = 8" id="a-8-2" data-name="a-8" class="cls-27" x="402" y="84" width="47" height="22"/>
+      <rect ng-click="guitar.string2 = 9" id="a-9-2" data-name="a-9" class="cls-27" x="449" y="84" width="45" height="22"/>
+      <rect ng-click="guitar.string2 = 10" id="a-10-2" data-name="a-10" class="cls-27" x="494" y="84" width="43" height="22"/>
+      <rect ng-click="guitar.string2 = 11" id="a-11-2" data-name="a-11" class="cls-27" x="537" y="84" width="43" height="22"/>
     </g>
 
-    <g ng-class="d-string" ng-init="string3 = -1">
-      <rect ng-click="string3 = 0" id="d-0-2" data-name="d-0" class="cls-27" y="63" width="18" height="21"/>
-      <rect ng-click="string3 = 1" id="d-1-2" data-name="d-1" class="cls-27" x="18" y="63" width="57" height="21"/>
-      <rect ng-click="string3 = 2" id="d-2-2" data-name="d-2" class="cls-27" x="75" y="63" width="61" height="21"/>
-      <rect ng-click="string3 = 3" id="d-3-2" data-name="d-3" class="cls-27" x="136" y="63" width="58" height="21"/>
-      <rect ng-click="string3 = 4" id="d-4-2" data-name="d-4" class="cls-27" x="194" y="63" width="55" height="21"/>
-      <rect ng-click="string3 = 5" id="d-5-2" data-name="d-5" class="cls-27" x="249" y="63" width="53" height="21"/>
-      <rect ng-click="string3 = 6" id="d-6-2" data-name="d-6" class="cls-27" x="302" y="63" width="51" height="21"/>
-      <rect ng-click="string3 = 7" id="d-7-2" data-name="d-7" class="cls-27" x="353" y="63" width="49" height="21"/>
-      <rect ng-click="string3 = 8" id="d-8-2" data-name="d-8" class="cls-27" x="402" y="63" width="47" height="21"/>
-      <rect ng-click="string3 = 9" id="d-9-2" data-name="d-9" class="cls-27" x="449" y="63" width="45" height="21"/>
-      <rect ng-click="string3 = 10" id="d-10-2" data-name="d-10" class="cls-27" x="494" y="63" width="43" height="21"/>
-      <rect ng-click="string3 = 11" id="d-11-2" data-name="d-11" class="cls-27" x="537" y="63" width="43" height="21"/>
+    <g ng-class="d-string">
+      <rect ng-click="guitar.string3 = 0" id="d-0-2" data-name="d-0" class="cls-27" y="63" width="18" height="21"/>
+      <rect ng-click="guitar.string3 = 1" id="d-1-2" data-name="d-1" class="cls-27" x="18" y="63" width="57" height="21"/>
+      <rect ng-click="guitar.string3 = 2" id="d-2-2" data-name="d-2" class="cls-27" x="75" y="63" width="61" height="21"/>
+      <rect ng-click="guitar.string3 = 3" id="d-3-2" data-name="d-3" class="cls-27" x="136" y="63" width="58" height="21"/>
+      <rect ng-click="guitar.string3 = 4" id="d-4-2" data-name="d-4" class="cls-27" x="194" y="63" width="55" height="21"/>
+      <rect ng-click="guitar.string3 = 5" id="d-5-2" data-name="d-5" class="cls-27" x="249" y="63" width="53" height="21"/>
+      <rect ng-click="guitar.string3 = 6" id="d-6-2" data-name="d-6" class="cls-27" x="302" y="63" width="51" height="21"/>
+      <rect ng-click="guitar.string3 = 7" id="d-7-2" data-name="d-7" class="cls-27" x="353" y="63" width="49" height="21"/>
+      <rect ng-click="guitar.string3 = 8" id="d-8-2" data-name="d-8" class="cls-27" x="402" y="63" width="47" height="21"/>
+      <rect ng-click="guitar.string3 = 9" id="d-9-2" data-name="d-9" class="cls-27" x="449" y="63" width="45" height="21"/>
+      <rect ng-click="guitar.string3 = 10" id="d-10-2" data-name="d-10" class="cls-27" x="494" y="63" width="43" height="21"/>
+      <rect ng-click="guitar.string3 = 11" id="d-11-2" data-name="d-11" class="cls-27" x="537" y="63" width="43" height="21"/>
     </g>
 
-    <g ng-class="g-string" ng-init="string4 = -1">
-      <rect ng-click="string4 = 0" id="g-0-2" data-name="g-0" class="cls-27" y="41" width="18" height="22"/>
-      <rect ng-click="string4 = 1" id="g-1-2" data-name="g-1" class="cls-27" x="18" y="41" width="57" height="22"/>
-      <rect ng-click="string4 = 2" id="g-2-2" data-name="g-2" class="cls-27" x="75" y="41" width="61" height="22"/>
-      <rect ng-click="string4 = 3" id="g-3-2" data-name="g-3" class="cls-27" x="136" y="41" width="58" height="22"/>
-      <rect ng-click="string4 = 4" id="g-4-2" data-name="g-4" class="cls-27" x="194" y="41" width="55" height="22"/>
-      <rect ng-click="string4 = 5" id="g-5-2" data-name="g-5" class="cls-27" x="249" y="41" width="53" height="22"/>
-      <rect ng-click="string4 = 6" id="g-6-2" data-name="g-6" class="cls-27" x="302" y="41" width="51" height="22"/>
-      <rect ng-click="string4 = 7" id="g-7-2" data-name="g-7" class="cls-27" x="353" y="41" width="49" height="22"/>
-      <rect ng-click="string4 = 8" id="g-8-2" data-name="g-8" class="cls-27" x="402" y="41" width="47" height="22"/>
-      <rect ng-click="string4 = 9" id="g-9-2" data-name="g-9" class="cls-27" x="449" y="41" width="45" height="22"/>
-      <rect ng-click="string4 = 10" id="g-10-2" data-name="g-10" class="cls-27" x="494" y="41" width="43" height="22"/>
-      <rect ng-click="string4 = 11" id="g-11-2" data-name="g-11" class="cls-27" x="537" y="41" width="43" height="22"/>
+    <g ng-class="g-string">
+      <rect ng-click="guitar.string4 = 0" id="g-0-2" data-name="g-0" class="cls-27" y="41" width="18" height="22"/>
+      <rect ng-click="guitar.string4 = 1" id="g-1-2" data-name="g-1" class="cls-27" x="18" y="41" width="57" height="22"/>
+      <rect ng-click="guitar.string4 = 2" id="g-2-2" data-name="g-2" class="cls-27" x="75" y="41" width="61" height="22"/>
+      <rect ng-click="guitar.string4 = 3" id="g-3-2" data-name="g-3" class="cls-27" x="136" y="41" width="58" height="22"/>
+      <rect ng-click="guitar.string4 = 4" id="g-4-2" data-name="g-4" class="cls-27" x="194" y="41" width="55" height="22"/>
+      <rect ng-click="guitar.string4 = 5" id="g-5-2" data-name="g-5" class="cls-27" x="249" y="41" width="53" height="22"/>
+      <rect ng-click="guitar.string4 = 6" id="g-6-2" data-name="g-6" class="cls-27" x="302" y="41" width="51" height="22"/>
+      <rect ng-click="guitar.string4 = 7" id="g-7-2" data-name="g-7" class="cls-27" x="353" y="41" width="49" height="22"/>
+      <rect ng-click="guitar.string4 = 8" id="g-8-2" data-name="g-8" class="cls-27" x="402" y="41" width="47" height="22"/>
+      <rect ng-click="guitar.string4 = 9" id="g-9-2" data-name="g-9" class="cls-27" x="449" y="41" width="45" height="22"/>
+      <rect ng-click="guitar.string4 = 10" id="g-10-2" data-name="g-10" class="cls-27" x="494" y="41" width="43" height="22"/>
+      <rect ng-click="guitar.string4 = 11" id="g-11-2" data-name="g-11" class="cls-27" x="537" y="41" width="43" height="22"/>
     </g>
 
-    <g ng-class="b-string" ng-init="string5 = -1">
-      <rect ng-click="string5 = 0" id="b-0-2" data-name="b-0" class="cls-27" y="20" width="18" height="21"/>
-      <rect ng-click="string5 = 1" id="b-1-2" data-name="b-1" class="cls-27" x="18" y="20" width="57" height="21"/>
-      <rect ng-click="string5 = 2" id="b-2-2" data-name="b-2" class="cls-27" x="75" y="20" width="61" height="21"/>
-      <rect ng-click="string5 = 3" id="b-3-2" data-name="b-3" class="cls-27" x="136" y="20" width="58" height="21"/>
-      <rect ng-click="string5 = 4" id="b-4-2" data-name="b-4" class="cls-27" x="194" y="20" width="55" height="21"/>
-      <rect ng-click="string5 = 5" id="b-5-2" data-name="b-5" class="cls-27" x="249" y="20" width="53" height="21"/>
-      <rect ng-click="string5 = 6" id="b-6-2" data-name="b-6" class="cls-27" x="302" y="19" width="51" height="22"/>
-      <rect ng-click="string5 = 7" id="b-7-2" data-name="b-7" class="cls-27" x="353" y="19" width="49" height="22"/>
-      <rect ng-click="string5 = 8" id="b-8-2" data-name="b-8" class="cls-27" x="402" y="19" width="47" height="22"/>
-      <rect ng-click="string5 = 9" id="b-9-2" data-name="b-9" class="cls-27" x="449" y="19" width="45" height="22"/>
-      <rect ng-click="string5 = 10" id="b-10-2" data-name="b-10" class="cls-27" x="494" y="19" width="43" height="22"/>
-      <rect ng-click="string5 = 11" id="b-11-2" data-name="b-11" class="cls-27" x="537" y="19" width="43" height="22"/>
+    <g ng-class="b-string">
+      <rect ng-click="guitar.string5 = 0" id="b-0-2" data-name="b-0" class="cls-27" y="20" width="18" height="21"/>
+      <rect ng-click="guitar.string5 = 1" id="b-1-2" data-name="b-1" class="cls-27" x="18" y="20" width="57" height="21"/>
+      <rect ng-click="guitar.string5 = 2" id="b-2-2" data-name="b-2" class="cls-27" x="75" y="20" width="61" height="21"/>
+      <rect ng-click="guitar.string5 = 3" id="b-3-2" data-name="b-3" class="cls-27" x="136" y="20" width="58" height="21"/>
+      <rect ng-click="guitar.string5 = 4" id="b-4-2" data-name="b-4" class="cls-27" x="194" y="20" width="55" height="21"/>
+      <rect ng-click="guitar.string5 = 5" id="b-5-2" data-name="b-5" class="cls-27" x="249" y="20" width="53" height="21"/>
+      <rect ng-click="guitar.string5 = 6" id="b-6-2" data-name="b-6" class="cls-27" x="302" y="19" width="51" height="22"/>
+      <rect ng-click="guitar.string5 = 7" id="b-7-2" data-name="b-7" class="cls-27" x="353" y="19" width="49" height="22"/>
+      <rect ng-click="guitar.string5 = 8" id="b-8-2" data-name="b-8" class="cls-27" x="402" y="19" width="47" height="22"/>
+      <rect ng-click="guitar.string5 = 9" id="b-9-2" data-name="b-9" class="cls-27" x="449" y="19" width="45" height="22"/>
+      <rect ng-click="guitar.string5 = 10" id="b-10-2" data-name="b-10" class="cls-27" x="494" y="19" width="43" height="22"/>
+      <rect ng-click="guitar.string5 = 11" id="b-11-2" data-name="b-11" class="cls-27" x="537" y="19" width="43" height="22"/>
     </g>
 
-    <g ng-class="e2-string" ng-init="string6 = -1">
-      <rect ng-click="string6 = 0" id="e2-0-2" data-name="e2-0" class="cls-27" width="18" height="20"/>
-      <rect ng-click="string6 = 1" id="e2-1-2" data-name="e2-1" class="cls-27" x="18" width="57" height="20"/>
-      <rect ng-click="string6 = 2" id="e2-2-2" data-name="e2-2" class="cls-27" x="75" width="61" height="20"/>
-      <rect ng-click="string6 = 3" id="e2-3-2" data-name="e2-3" class="cls-27" x="136" width="58" height="20"/>
-      <rect ng-click="string6 = 4" id="e2-4-2" data-name="e2-4" class="cls-27" x="194" width="55" height="20"/>
-      <rect ng-click="string6 = 5" id="e2-5-2" data-name="e2-5" class="cls-27" x="249" width="53" height="20"/>
-      <rect ng-click="string6 = 6" id="e2-6-2" data-name="e2-6" class="cls-27" x="302" width="51" height="19"/>
-      <rect ng-click="string6 = 7" id="e2-7-2" data-name="e2-7" class="cls-27" x="353" width="49" height="19"/>
-      <rect ng-click="string6 = 8" id="e2-8-2" data-name="e2-8" class="cls-27" x="402" width="47" height="19"/>
-      <rect ng-click="string6 = 9" id="e2-9-2" data-name="e2-9" class="cls-27" x="449" width="45" height="19"/>
-      <rect ng-click="string6 = 10" id="e2-10-2" data-name="e2-10" class="cls-27" x="494" width="43" height="19"/>
-      <rect ng-click="string6 = 11" id="e2-11-2" data-name="e2-11" class="cls-27" x="537" width="43" height="19"/>
+    <g ng-class="e2-string">
+      <rect ng-click="guitar.string6 = 0" id="e2-0-2" data-name="e2-0" class="cls-27" width="18" height="20"/>
+      <rect ng-click="guitar.string6 = 1" id="e2-1-2" data-name="e2-1" class="cls-27" x="18" width="57" height="20"/>
+      <rect ng-click="guitar.string6 = 2" id="e2-2-2" data-name="e2-2" class="cls-27" x="75" width="61" height="20"/>
+      <rect ng-click="guitar.string6 = 3" id="e2-3-2" data-name="e2-3" class="cls-27" x="136" width="58" height="20"/>
+      <rect ng-click="guitar.string6 = 4" id="e2-4-2" data-name="e2-4" class="cls-27" x="194" width="55" height="20"/>
+      <rect ng-click="guitar.string6 = 5" id="e2-5-2" data-name="e2-5" class="cls-27" x="249" width="53" height="20"/>
+      <rect ng-click="guitar.string6 = 6" id="e2-6-2" data-name="e2-6" class="cls-27" x="302" width="51" height="19"/>
+      <rect ng-click="guitar.string6 = 7" id="e2-7-2" data-name="e2-7" class="cls-27" x="353" width="49" height="19"/>
+      <rect ng-click="guitar.string6 = 8" id="e2-8-2" data-name="e2-8" class="cls-27" x="402" width="47" height="19"/>
+      <rect ng-click="guitar.string6 = 9" id="e2-9-2" data-name="e2-9" class="cls-27" x="449" width="45" height="19"/>
+      <rect ng-click="guitar.string6 = 10" id="e2-10-2" data-name="e2-10" class="cls-27" x="494" width="43" height="19"/>
+      <rect ng-click="guitar.string6 = 11" id="e2-11-2" data-name="e2-11" class="cls-27" x="537" width="43" height="19"/>
     </g>
   </svg>
 </svg>
