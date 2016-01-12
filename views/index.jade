@@ -1,8 +1,15 @@
 extends layout
 
 block content
-  h1 Guitar to Piano Converter
+  div.header
+    h1 Guitar to Piano Converter
   //Guitar image
   div.container(ng-controller="converterCtrl")
     div(class='guitar' ng-include="'/images/guitar.svg'")
     div(class='piano' ng-include="'/images/piano.svg'")
+  div.menu
+    h2 Pick a chord
+    div.root
+      p E
+    div.chord
+      p major
