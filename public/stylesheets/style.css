@@ -69,6 +69,18 @@ body {
 	display: inline-block;
 	margin-top: 130px;
 }
+.footer {
+	width: 100%;
+	padding: 10px 0;
+	vertical-align: center;
+	position: fixed;
+	bottom: 0;
+	background: linear-gradient(#57BCEF, #226688);
+	color: white;
+	text-shadow: #222 -1px -1px 1px;
+	box-shadow: 1px 1px 1px #222;
+}
+	
 
 /*.menu {*/
 	/*width: 20%;*/
