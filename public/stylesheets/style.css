@@ -87,10 +87,10 @@ h1 {
 	opacity: 1;
 }
 
-.whitekeyactive {
+.keyactive {
 	fill: #00A6E5;
 }
 
-.blackkeyactive {
-	fill: #00E7FF;
+.keyshadowactive {
+	fill: #00739F;
 }

@@ -301,77 +301,77 @@
 
     <g ng-class="a-string" >
       <rect ng-click="togglefret('string2')" id="a-0-2" data-name="a-0" class="cls-27" y="84" width="18" height="22"/>
-      <rect ng-click="guitar.string2 = 1" id="a-1-2" data-name="a-1" class="cls-27" x="18" y="84" width="57" height="22"/>
-      <rect ng-click="guitar.string2 = 2" id="a-2-2" data-name="a-2" class="cls-27" x="75" y="84" width="61" height="22"/>
-      <rect ng-click="guitar.string2 = 3" id="a-3-2" data-name="a-3" class="cls-27" x="136" y="84" width="58" height="22"/>
-      <rect ng-click="guitar.string2 = 4" id="a-4-2" data-name="a-4" class="cls-27" x="194" y="84" width="55" height="22"/>
-      <rect ng-click="guitar.string2 = 5" id="a-5-2" data-name="a-5" class="cls-27" x="249" y="84" width="53" height="22"/>
-      <rect ng-click="guitar.string2 = 6" id="a-6-2" data-name="a-6" class="cls-27" x="302" y="84" width="51" height="22"/>
-      <rect ng-click="guitar.string2 = 7" id="a-7-2" data-name="a-7" class="cls-27" x="353" y="84" width="49" height="22"/>
-      <rect ng-click="guitar.string2 = 8" id="a-8-2" data-name="a-8" class="cls-27" x="402" y="84" width="47" height="22"/>
-      <rect ng-click="guitar.string2 = 9" id="a-9-2" data-name="a-9" class="cls-27" x="449" y="84" width="45" height="22"/>
-      <rect ng-click="guitar.string2 = 10" id="a-10-2" data-name="a-10" class="cls-27" x="494" y="84" width="43" height="22"/>
-      <rect ng-click="guitar.string2 = 11" id="a-11-2" data-name="a-11" class="cls-27" x="537" y="84" width="43" height="22"/>
+      <rect ng-click="setString(1, 'string2')" id="a-1-2" data-name="a-1" class="cls-27" x="18" y="84" width="57" height="22"/>
+      <rect ng-click="setString(2, 'string2')" id="a-2-2" data-name="a-2" class="cls-27" x="75" y="84" width="61" height="22"/>
+      <rect ng-click="setString(3, 'string2')" = 3" id="a-3-2" data-name="a-3" class="cls-27" x="136" y="84" width="58" height="22"/>
+      <rect ng-click="setString(4, 'string2')" id="a-4-2" data-name="a-4" class="cls-27" x="194" y="84" width="55" height="22"/>
+      <rect ng-click="setString(5, 'string2')" id="a-5-2" data-name="a-5" class="cls-27" x="249" y="84" width="53" height="22"/>
+      <rect ng-click="setString(6, 'string2')" id="a-6-2" data-name="a-6" class="cls-27" x="302" y="84" width="51" height="22"/>
+      <rect ng-click="setString(7, 'string2')" id="a-7-2" data-name="a-7" class="cls-27" x="353" y="84" width="49" height="22"/>
+      <rect ng-click="setString(8, 'string2')" id="a-8-2" data-name="a-8" class="cls-27" x="402" y="84" width="47" height="22"/>
+      <rect ng-click="setString(9, 'string2')" id="a-9-2" data-name="a-9" class="cls-27" x="449" y="84" width="45" height="22"/>
+      <rect ng-click="setString(10, 'string2')" id="a-10-2" data-name="a-10" class="cls-27" x="494" y="84" width="43" height="22"/>
+      <rect ng-click="setString(11, 'string2')" id="a-11-2" data-name="a-11" class="cls-27" x="537" y="84" width="43" height="22"/>
     </g>
 
     <g ng-class="d-string">
       <rect ng-click="togglefret('string3')" id="d-0-2" data-name="d-0" class="cls-27" y="63" width="18" height="21"/>
-      <rect ng-click="guitar.string3 = 1" id="d-1-2" data-name="d-1" class="cls-27" x="18" y="63" width="57" height="21"/>
-      <rect ng-click="guitar.string3 = 2" id="d-2-2" data-name="d-2" class="cls-27" x="75" y="63" width="61" height="21"/>
-      <rect ng-click="guitar.string3 = 3" id="d-3-2" data-name="d-3" class="cls-27" x="136" y="63" width="58" height="21"/>
-      <rect ng-click="guitar.string3 = 4" id="d-4-2" data-name="d-4" class="cls-27" x="194" y="63" width="55" height="21"/>
-      <rect ng-click="guitar.string3 = 5" id="d-5-2" data-name="d-5" class="cls-27" x="249" y="63" width="53" height="21"/>
-      <rect ng-click="guitar.string3 = 6" id="d-6-2" data-name="d-6" class="cls-27" x="302" y="63" width="51" height="21"/>
-      <rect ng-click="guitar.string3 = 7" id="d-7-2" data-name="d-7" class="cls-27" x="353" y="63" width="49" height="21"/>
-      <rect ng-click="guitar.string3 = 8" id="d-8-2" data-name="d-8" class="cls-27" x="402" y="63" width="47" height="21"/>
-      <rect ng-click="guitar.string3 = 9" id="d-9-2" data-name="d-9" class="cls-27" x="449" y="63" width="45" height="21"/>
-      <rect ng-click="guitar.string3 = 10" id="d-10-2" data-name="d-10" class="cls-27" x="494" y="63" width="43" height="21"/>
-      <rect ng-click="guitar.string3 = 11" id="d-11-2" data-name="d-11" class="cls-27" x="537" y="63" width="43" height="21"/>
+      <rect ng-click="setString(1, 'string3')" id="d-1-2" data-name="d-1" class="cls-27" x="18" y="63" width="57" height="21"/>
+      <rect ng-click="setString(2, 'string3')" id="d-2-2" data-name="d-2" class="cls-27" x="75" y="63" width="61" height="21"/>
+      <rect ng-click="setString(3, 'string3')" id="d-3-2" data-name="d-3" class="cls-27" x="136" y="63" width="58" height="21"/>
+      <rect ng-click="setString(4, 'string3')" id="d-4-2" data-name="d-4" class="cls-27" x="194" y="63" width="55" height="21"/>
+      <rect ng-click="setString(5, 'string3')" id="d-5-2" data-name="d-5" class="cls-27" x="249" y="63" width="53" height="21"/>
+      <rect ng-click="setString(6, 'string3')" id="d-6-2" data-name="d-6" class="cls-27" x="302" y="63" width="51" height="21"/>
+      <rect ng-click="setString(7, 'string3')" id="d-7-2" data-name="d-7" class="cls-27" x="353" y="63" width="49" height="21"/>
+      <rect ng-click="setString(8, 'string3')" id="d-8-2" data-name="d-8" class="cls-27" x="402" y="63" width="47" height="21"/>
+      <rect ng-click="setString(9, 'string3')" id="d-9-2" data-name="d-9" class="cls-27" x="449" y="63" width="45" height="21"/>
+      <rect ng-click="setString(10, 'string3')" id="d-10-2" data-name="d-10" class="cls-27" x="494" y="63" width="43" height="21"/>
+      <rect ng-click="setString(11, 'string3')" id="d-11-2" data-name="d-11" class="cls-27" x="537" y="63" width="43" height="21"/>
     </g>
 
     <g ng-class="g-string">
       <rect ng-click="togglefret('string4')" id="g-0-2" data-name="g-0" class="cls-27" y="41" width="18" height="22"/>
-      <rect ng-click="guitar.string4 = 1" id="g-1-2" data-name="g-1" class="cls-27" x="18" y="41" width="57" height="22"/>
-      <rect ng-click="guitar.string4 = 2" id="g-2-2" data-name="g-2" class="cls-27" x="75" y="41" width="61" height="22"/>
-      <rect ng-click="guitar.string4 = 3" id="g-3-2" data-name="g-3" class="cls-27" x="136" y="41" width="58" height="22"/>
-      <rect ng-click="guitar.string4 = 4" id="g-4-2" data-name="g-4" class="cls-27" x="194" y="41" width="55" height="22"/>
-      <rect ng-click="guitar.string4 = 5" id="g-5-2" data-name="g-5" class="cls-27" x="249" y="41" width="53" height="22"/>
-      <rect ng-click="guitar.string4 = 6" id="g-6-2" data-name="g-6" class="cls-27" x="302" y="41" width="51" height="22"/>
-      <rect ng-click="guitar.string4 = 7" id="g-7-2" data-name="g-7" class="cls-27" x="353" y="41" width="49" height="22"/>
-      <rect ng-click="guitar.string4 = 8" id="g-8-2" data-name="g-8" class="cls-27" x="402" y="41" width="47" height="22"/>
-      <rect ng-click="guitar.string4 = 9" id="g-9-2" data-name="g-9" class="cls-27" x="449" y="41" width="45" height="22"/>
-      <rect ng-click="guitar.string4 = 10" id="g-10-2" data-name="g-10" class="cls-27" x="494" y="41" width="43" height="22"/>
-      <rect ng-click="guitar.string4 = 11" id="g-11-2" data-name="g-11" class="cls-27" x="537" y="41" width="43" height="22"/>
+      <rect ng-click="setString(1, 'string4')" id="g-1-2" data-name="g-1" class="cls-27" x="18" y="41" width="57" height="22"/>
+      <rect ng-click="setString(2, 'string4')" id="g-2-2" data-name="g-2" class="cls-27" x="75" y="41" width="61" height="22"/>
+      <rect ng-click="setString(3, 'string4')" id="g-3-2" data-name="g-3" class="cls-27" x="136" y="41" width="58" height="22"/>
+      <rect ng-click="setString(4, 'string4')" id="g-4-2" data-name="g-4" class="cls-27" x="194" y="41" width="55" height="22"/>
+      <rect ng-click="setString(5, 'string4')" id="g-5-2" data-name="g-5" class="cls-27" x="249" y="41" width="53" height="22"/>
+      <rect ng-click="setString(6, 'string4')" id="g-6-2" data-name="g-6" class="cls-27" x="302" y="41" width="51" height="22"/>
+      <rect ng-click="setString(7, 'string4')" id="g-7-2" data-name="g-7" class="cls-27" x="353" y="41" width="49" height="22"/>
+      <rect ng-click="setString(8, 'string4')" id="g-8-2" data-name="g-8" class="cls-27" x="402" y="41" width="47" height="22"/>
+      <rect ng-click="setString(9, 'string4')" id="g-9-2" data-name="g-9" class="cls-27" x="449" y="41" width="45" height="22"/>
+      <rect ng-click="setString(10, 'string4')" id="g-10-2" data-name="g-10" class="cls-27" x="494" y="41" width="43" height="22"/>
+      <rect ng-click="setString(11, 'string4')" id="g-11-2" data-name="g-11" class="cls-27" x="537" y="41" width="43" height="22"/>
     </g>
 
     <g ng-class="b-string">
       <rect ng-click="togglefret('string5')" id="b-0-2" data-name="b-0" class="cls-27" y="20" width="18" height="21"/>
-      <rect ng-click="guitar.string5 = 1" id="b-1-2" data-name="b-1" class="cls-27" x="18" y="20" width="57" height="21"/>
-      <rect ng-click="guitar.string5 = 2" id="b-2-2" data-name="b-2" class="cls-27" x="75" y="20" width="61" height="21"/>
-      <rect ng-click="guitar.string5 = 3" id="b-3-2" data-name="b-3" class="cls-27" x="136" y="20" width="58" height="21"/>
-      <rect ng-click="guitar.string5 = 4" id="b-4-2" data-name="b-4" class="cls-27" x="194" y="20" width="55" height="21"/>
-      <rect ng-click="guitar.string5 = 5" id="b-5-2" data-name="b-5" class="cls-27" x="249" y="20" width="53" height="21"/>
-      <rect ng-click="guitar.string5 = 6" id="b-6-2" data-name="b-6" class="cls-27" x="302" y="19" width="51" height="22"/>
-      <rect ng-click="guitar.string5 = 7" id="b-7-2" data-name="b-7" class="cls-27" x="353" y="19" width="49" height="22"/>
-      <rect ng-click="guitar.string5 = 8" id="b-8-2" data-name="b-8" class="cls-27" x="402" y="19" width="47" height="22"/>
-      <rect ng-click="guitar.string5 = 9" id="b-9-2" data-name="b-9" class="cls-27" x="449" y="19" width="45" height="22"/>
-      <rect ng-click="guitar.string5 = 10" id="b-10-2" data-name="b-10" class="cls-27" x="494" y="19" width="43" height="22"/>
-      <rect ng-click="guitar.string5 = 11" id="b-11-2" data-name="b-11" class="cls-27" x="537" y="19" width="43" height="22"/>
+      <rect ng-click="setString(1, 'string5')" id="b-1-2" data-name="b-1" class="cls-27" x="18" y="20" width="57" height="21"/>
+      <rect ng-click="setString(2, 'string5')" id="b-2-2" data-name="b-2" class="cls-27" x="75" y="20" width="61" height="21"/>
+      <rect ng-click="setString(3, 'string5')" id="b-3-2" data-name="b-3" class="cls-27" x="136" y="20" width="58" height="21"/>
+      <rect ng-click="setString(4, 'string5')" id="b-4-2" data-name="b-4" class="cls-27" x="194" y="20" width="55" height="21"/>
+      <rect ng-click="setString(5, 'string5')" id="b-5-2" data-name="b-5" class="cls-27" x="249" y="20" width="53" height="21"/>
+      <rect ng-click="setString(6, 'string5')" id="b-6-2" data-name="b-6" class="cls-27" x="302" y="19" width="51" height="22"/>
+      <rect ng-click="setString(7, 'string5')" id="b-7-2" data-name="b-7" class="cls-27" x="353" y="19" width="49" height="22"/>
+      <rect ng-click="setString(8, 'string5')" id="b-8-2" data-name="b-8" class="cls-27" x="402" y="19" width="47" height="22"/>
+      <rect ng-click="setString(9, 'string5')" id="b-9-2" data-name="b-9" class="cls-27" x="449" y="19" width="45" height="22"/>
+      <rect ng-click="setString(10, 'string5')" id="b-10-2" data-name="b-10" class="cls-27" x="494" y="19" width="43" height="22"/>
+      <rect ng-click="setString(11, 'string5')" id="b-11-2" data-name="b-11" class="cls-27" x="537" y="19" width="43" height="22"/>
     </g>
 
     <g ng-class="e2-string">
       <rect ng-click="togglefret('string6')" id="e2-0-2" data-name="e2-0" class="cls-27" width="18" height="20"/>
-      <rect ng-click="guitar.string6 = 1" id="e2-1-2" data-name="e2-1" class="cls-27" x="18" width="57" height="20"/>
-      <rect ng-click="guitar.string6 = 2" id="e2-2-2" data-name="e2-2" class="cls-27" x="75" width="61" height="20"/>
-      <rect ng-click="guitar.string6 = 3" id="e2-3-2" data-name="e2-3" class="cls-27" x="136" width="58" height="20"/>
-      <rect ng-click="guitar.string6 = 4" id="e2-4-2" data-name="e2-4" class="cls-27" x="194" width="55" height="20"/>
-      <rect ng-click="guitar.string6 = 5" id="e2-5-2" data-name="e2-5" class="cls-27" x="249" width="53" height="20"/>
-      <rect ng-click="guitar.string6 = 6" id="e2-6-2" data-name="e2-6" class="cls-27" x="302" width="51" height="19"/>
-      <rect ng-click="guitar.string6 = 7" id="e2-7-2" data-name="e2-7" class="cls-27" x="353" width="49" height="19"/>
-      <rect ng-click="guitar.string6 = 8" id="e2-8-2" data-name="e2-8" class="cls-27" x="402" width="47" height="19"/>
-      <rect ng-click="guitar.string6 = 9" id="e2-9-2" data-name="e2-9" class="cls-27" x="449" width="45" height="19"/>
-      <rect ng-click="guitar.string6 = 10" id="e2-10-2" data-name="e2-10" class="cls-27" x="494" width="43" height="19"/>
-      <rect ng-click="guitar.string6 = 11" id="e2-11-2" data-name="e2-11" class="cls-27" x="537" width="43" height="19"/>
+      <rect ng-click="setString(1, 'string6')" id="e2-1-2" data-name="e2-1" class="cls-27" x="18" width="57" height="20"/>
+      <rect ng-click="setString(2, 'string6')" id="e2-2-2" data-name="e2-2" class="cls-27" x="75" width="61" height="20"/>
+      <rect ng-click="setString(3, 'string6')" id="e2-3-2" data-name="e2-3" class="cls-27" x="136" width="58" height="20"/>
+      <rect ng-click="setString(4, 'string6')" id="e2-4-2" data-name="e2-4" class="cls-27" x="194" width="55" height="20"/>
+      <rect ng-click="setString(5, 'string6')" id="e2-5-2" data-name="e2-5" class="cls-27" x="249" width="53" height="20"/>
+      <rect ng-click="setString(6, 'string6')" id="e2-6-2" data-name="e2-6" class="cls-27" x="302" width="51" height="19"/>
+      <rect ng-click="setString(7, 'string6')" = 7" id="e2-7-2" data-name="e2-7" class="cls-27" x="353" width="49" height="19"/>
+      <rect ng-click="setString(8, 'string6')" = 8" id="e2-8-2" data-name="e2-8" class="cls-27" x="402" width="47" height="19"/>
+      <rect ng-click="setString(9, 'string6')" = 9" id="e2-9-2" data-name="e2-9" class="cls-27" x="449" width="45" height="19"/>
+      <rect ng-click="setString(10, 'string6')" = 10" id="e2-10-2" data-name="e2-10" class="cls-27" x="494" width="43" height="19"/>
+      <rect ng-click="setString(11, 'string6')" = 11" id="e2-11-2" data-name="e2-11" class="cls-27" x="537" width="43" height="19"/>
     </g>
   </svg>
 </svg>
