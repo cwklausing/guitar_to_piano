@@ -23,6 +23,10 @@ app.controller('converterCtrl', ['$scope', '$http', function($scope, $http){
     };
 
     $scope.setString = function(note, string){
-        $scope.guitar[string] = note;
+        if($scope.guitar[string] === note) {
+            $scope.guitar[string] = -1;
+        } else {
+            $scope.guitar[string] = note;
+        }
     };
 }]);
