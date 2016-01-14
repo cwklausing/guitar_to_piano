@@ -103,6 +103,13 @@ select {
 	margin: 10px;
 }
 
+.chordbox button {
+	display: block;
+	margin: 0 auto;
+	font-size: .75em;
+	border-radius: 10px;
+	background-color: #fff;
+}
 .menubutton {
 	position: absolute;
 	right: 20px;
