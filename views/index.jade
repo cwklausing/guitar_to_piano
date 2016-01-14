@@ -1,18 +1,25 @@
 extends layout
 
 block content
-  div.header
-    h1 Guitar to Piano Converter
-  //Guitar image
-  div.container(ng-controller="converterCtrl")
-    h3 Click frets on the guitar to display the corresponding notes on the piano
-    div(class='guitar' ng-include="'/images/guitar.svg'")
-    div(class='piano' ng-include="'/images/piano.svg'")
-    //div.menu
-    //  h2 Pick a chord
-    //  div.root
-    //    p E
-    //  div.chord
-    //    p major
+  section(ng-controller="converterCtrl")
+    div.header
+      h1 Guitar to Piano Converter
+    div.menubutton(ng-include="'./images/menu-icon.svg'" ng-click="menuToggle()" ng-class="{buttonActive:menuStatus === 'open'}")
+    div.container
+      h3 Click frets on the guitar to display the corresponding notes on the piano
+      div(class='guitar' ng-include="'/images/guitar.svg'")
+      div(class='piano' ng-include="'/images/piano.svg'")
+    div.menu(ng-class="{menuactive:menuStatus === 'open'}")
+      div.chordbox
+        h2 Pick a chord
+        select
+          option(value="0") Root Note
+          option(value="E") E
+          option(value="F") F
+          option(value="G") G
+        select
+          option(value="Chord") Chord Type
+          option(value="major") major
+          option(value="minor") minor
     div.footer
       p Copyright &#169; 2016 Connor Klausing

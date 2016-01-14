@@ -46,10 +46,10 @@ table {
 /*End CSS Reset*/
 
 /*Begin Custom CSS*/
-
 body {
-  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
   	text-align: center;
+  	overflow: hidden;
 }
 
 .header {
@@ -68,28 +68,8 @@ body {
 	width: 100%;
 	display: inline-block;
 	margin-top: 130px;
+	font-size: 1.3em;
 }
-.footer {
-	width: 100%;
-	padding: 10px 0;
-	vertical-align: center;
-	position: fixed;
-	bottom: 0;
-	background: linear-gradient(#57BCEF, #226688);
-	color: white;
-	text-shadow: #222 -1px -1px 1px;
-	box-shadow: 1px 1px 1px #222;
-}
-	
-
-/*.menu {*/
-	/*width: 20%;*/
-	/*position: absolute;*/
-	/*display: inline-block;*/
-	/*text-align: center;*/
-	/*height: 100%;*/
-	/*background-color: blue;*/
-/*}*/
 
 .piano, .guitar {
   width: 80%;
@@ -98,12 +78,75 @@ body {
   margin: 0 auto;
 }
 
+.menu {
+	width: 30%;
+	position: absolute;
+	text-align: center;
+	height: 100%;
+	z-index: 1;
+	right: -30%;
+	top: 0;
+	background: linear-gradient(to left, #706F6F, #A1A0A0);
+	box-shadow: none;
+	transition: all 0.5s ease;
+}
+
+.chordbox {
+	margin: 20% 0;
+	font-size: 2em;
+	text-shadow: -1px 0 1px black ;
+	color: white;
+}
+
+select {
+	font-size: 1.33em;
+	margin: 10px;
+}
+
+.menubutton {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+	border: none;
+	z-index: 2;
+	transition: right 0.5s ease;
+}
+
+.footer {
+	width: 100%;
+	padding: 10px 0;
+	position: absolute;
+	bottom: 0;
+	background: linear-gradient(#57BCEF, #226688);
+	color: white;
+	text-shadow: #222 -1px -1px 1px;
+	box-shadow: 1px 1px 1px #222;
+}
+
+/*click-triggered classes*/
+.menuactive {
+	right: 0;
+	box-shadow: -2px 0 30px black;
+}
+
+.buttonActive {
+	right: 32%;
+}
+
 /*Initial Vector Styling */
 .cls-24, .cls-25, .cls-26, .cls-27, .cls-28 {
 	stroke: #000;
 	opacity: 0;
 }
 
+/*button classes*/
+.m-cls-1 {
+    fill: #FAFAFA;
+}
+
+/*piano classes*/
 .p-cls-1 {
 	fill: #1a1a1a;
 }
@@ -118,7 +161,7 @@ body {
 	stroke-miterlimit: 10;
 }
 
-/*Click-active Vector Styling*/
+/*Click-triggered Vector Styling*/
 .active {
 	opacity: 1;
 }
