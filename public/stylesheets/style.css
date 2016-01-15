@@ -60,7 +60,7 @@ body {
 	background: linear-gradient(#57BCEF, #226688);
 	color: white;
 	text-shadow: #222 -1px -1px 1px;
-	box-shadow: 2px 2px 2px #222;
+	box-shadow: 0 2px 2px #222;
 	font-size: 3em;
 	border: 1px solid black;
 }
@@ -87,10 +87,10 @@ body {
 	z-index: 1;
 	right: -30%;
 	top: 0;
-	background: linear-gradient(to left, #7A7A7A, #706F6F, #7A7A7A);
+	background: linear-gradient(to left, #706F6F, #7A7A7A);
 	box-shadow: none;
 	transition: all 0.5s ease;
-		border: 1px solid black;
+	border: 1px solid black;
 }
 
 .chordbox {
@@ -102,8 +102,8 @@ body {
 	background: linear-gradient(#57BCEF, #226688);
 	color: white;
 	text-shadow: #222 -1px -1px 1px;
-	box-shadow: 2px 2px 2px #222;
-	border: 1px solid black
+	box-shadow: 0 1px 4px #222;
+	border-bottom: 1px solid black;
 }
 
 select {
@@ -117,16 +117,22 @@ select {
 	padding: 10px 0;
 	margin: 0 auto;
 	font-size: .75em;
-	border-radius: 10px;
-	background-color: #fff;
-	color: black;
-	text-shadow: none;
-	box-shadow: 1px 1px 5px black;
+	border-radius: 20px;
+	background: linear-gradient(#57BCEF, #226688);
+	color: white;
+	text-shadow: #222 -1px -1px 1px;
+	box-shadow: 0 1px 6px black;
 	cursor: default;
 }
 
 .chordbox submit:hover {
 	box-shadow: 1px 1px 10px black;
+	background: linear-gradient(#5CC3F7, #277399);
+}
+
+.chordbox submit:active {
+	box-shadow: 1px 1px 10px black;
+	background: linear-gradient(#277399, #51ACDA);
 }
 
 .menubutton {

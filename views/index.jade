@@ -11,7 +11,7 @@ block content
       div(class='piano' ng-include="'/images/piano.svg'")
     div.menu(ng-class="{menuactive:menuStatus === 'open'}")
       div.chordbox
-        h2 Pick a chord
+        h2(ng-click="menuToggle()") Pick a chord
         select(name="rootSelect" ng-model="chordData.rootSelect")
           option(value="0" selected) Root Note
           option(value="E") E
@@ -25,6 +25,7 @@ block content
           option(value="Chord" selected) Chord Type
           option(value="major") major
           option(value="minor") minor
+          option(value="major7") major7
         submit(ng-click="showChord()") Go!
     div.footer
       p Copyright &#169; 2016 Connor Klausing
