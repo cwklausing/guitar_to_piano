@@ -62,7 +62,7 @@ body {
 	text-shadow: #222 -1px -1px 1px;
 	box-shadow: 0 2px 2px #222;
 	font-size: 3em;
-	border: 1px solid black;
+	border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -90,20 +90,18 @@ body {
 	background: linear-gradient(to left, #706F6F, #7A7A7A);
 	box-shadow: none;
 	transition: all 0.5s ease;
-	border: 1px solid black;
-}
-
-.chordbox {
-	font-size: 2em;
+	border: 1px solid rgba(0, 0, 0, 0.35);
 }
 
 .chordbox h2 {
+	font-size: 2em;
 	padding: 20px;
 	background: linear-gradient(#57BCEF, #226688);
 	color: white;
 	text-shadow: #222 -1px -1px 1px;
 	box-shadow: 0 1px 4px #222;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+	cursor: default;
 }
 
 select {
@@ -116,7 +114,7 @@ select {
 	width: 100px;
 	padding: 10px 0;
 	margin: 0 auto;
-	font-size: .75em;
+	font-size: 1.5em;
 	border-radius: 20px;
 	background: linear-gradient(#57BCEF, #226688);
 	color: white;
@@ -155,13 +153,13 @@ select {
 	color: white;
 	text-shadow: #222 -1px -1px 1px;
 	box-shadow: 1px 1px 1px #222;
-	border: 1px solid black;
+	border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 /*click-triggered classes*/
 .menuactive {
 	right: 0;
-	box-shadow: -2px 0 30px black;
+	box-shadow: -1px 0 30px rgba(0,0,0,0.5);
 }
 
 .buttonActive {

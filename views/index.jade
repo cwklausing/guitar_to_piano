@@ -6,7 +6,7 @@ block content
       h1 Guitar to Piano Converter
     div.menubutton(ng-include="'./images/menu-icon.svg'" ng-click="menuToggle()" ng-class="{buttonActive:menuStatus === 'open'}")
     div.container
-      h3 Click frets on the guitar to display the corresponding notes on the piano
+      h3 Click the guitar frets to convert manually, or click the menu for chords.
       div(class='guitar' ng-include="'/images/guitar.svg'")
       div(class='piano' ng-include="'/images/piano.svg'")
     div.menu(ng-class="{menuactive:menuStatus === 'open'}")
