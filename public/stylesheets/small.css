@@ -1,0 +1,22 @@
+.header {
+    text-align: left;
+    padding-left: 5%;
+    font-size: 2em;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.container h3 {
+    display: none;
+}
+
+.piano, .guitar {
+    width: 95%;
+    padding: 2px;
+}
+
+.footer {
+    display: none;
+}

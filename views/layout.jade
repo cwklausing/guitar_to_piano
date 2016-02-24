@@ -2,10 +2,12 @@ doctype html
 html(ng-app="app")
   head
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    meta(name="description" content="Convert your guitar tabs to piano chords online. This converter is free, easy to use, and interactive. Enjoy!")
+    title Guitar To Piano Converter | Convert Your Guitar Tabs to Piano Chords!
+    meta(name="description" content="Guitar To Piano Converter - Convert your guitar tabs to piano chords online. This converter is free, easy to use, and interactive. Enjoy!")
     meta(name="wot-verification" content="36941df19cee17510586")
-    title Guitar To Piano Converter: Convert Your Guitar Tabs to Piano Chords!
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet" type="text/css" media="only screen and (max-width: 750px), only screen and (max-device-width: 480px)" href="/stylesheets/small.css")
+    link(rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 600px)" href="/stylesheets/mobile.css")
     link(href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css')
     script(src='/vendors/angular.min.js')
     script(src='/javascripts/scripts.js')
