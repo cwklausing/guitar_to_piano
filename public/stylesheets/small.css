@@ -17,6 +17,16 @@
     padding: 2px;
 }
 
-.footer {
-    display: none;
+.chordbox h2 {
+    font-size: 1em;
+    padding: 10px;
+}
+
+select {
+    width: 80%;
+    margin: 10px;
+}
+
+.menubutton {
+    width: 40px;
 }
